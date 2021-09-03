@@ -18,7 +18,7 @@ function App() {
         <Header />
       </div>
       <div className="divs" data-aos="fade-up">
-        lolo
+        My work:
       </div>
       <div className="divs" data-aos="fade-left">
         alfjasfasfjlasdfljaflafş asfd asdfk af asdf asdfki sadfkasdifkasdfk
