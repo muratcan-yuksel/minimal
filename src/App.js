@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./style/app.css";
 function App() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -14,7 +15,18 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <div data-aos="fade-up">lolo</div>
+      <div className="divs" data-aos="fade-up">
+        lolo
+      </div>
+      <div className="divs" data-aos="fade-left">
+        lolo
+      </div>{" "}
+      <div className="divs" data-aos="fade-down">
+        lolo
+      </div>{" "}
+      <div className="divs" data-aos="fade-up">
+        lolo
+      </div>
     </div>
   );
 }
