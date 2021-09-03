@@ -15,10 +15,8 @@ function Header() {
         cursorColor="#3F3D56"
         multiText={[
           "Hello world, this is Murat, a front-end web developer",
-          "it consist of two types...",
-          "Single text display and multi text display",
-          "Fonts can be customized.",
-          "The type speed can be customized as well",
+          "My main focus is creating React.js applications",
+          "Contact me by =>",
         ]}
         multiTextDelay={1000}
         typeSpeed={30}
