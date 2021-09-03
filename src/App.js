@@ -14,12 +14,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
+      <div id="header">
+        <Header />
+      </div>
       <div className="divs" data-aos="fade-up">
         lolo
       </div>
       <div className="divs" data-aos="fade-left">
-        lolo
+        alfjasfasfjlasdfljaflafş asfd asdfk af asdf asdfki sadfkasdifkasdfk
       </div>{" "}
       <div className="divs" data-aos="fade-down">
         lolo
