@@ -7,17 +7,25 @@ import Header from "./components/Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./style/app.css";
+import Work from "./components/Work";
+import Container from "react-bootstrap/Container";
+
 function App() {
+  //this aos is for the transition animations
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
     <div className="App">
-      <Navbar />
-      <div id="header">
-        <Header />
-      </div>
-      <div className="divs" data-aos="fade-up">
+      <Container>
+        <Navbar />
+        <div id="header">
+          <Header />
+        </div>
+        <div id="work">
+          <Work />
+        </div>
+        {/* <div className="divs" data-aos="fade-up">
         My work:
       </div>
       <div className="divs" data-aos="fade-left">
@@ -28,7 +36,8 @@ function App() {
       </div>{" "}
       <div className="divs" data-aos="fade-up">
         lolo
-      </div>
+      </div> */}
+      </Container>
     </div>
   );
 }
