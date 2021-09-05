@@ -12,10 +12,13 @@ body {
   height: 100vh;
   border: 1px solid blue;
 }
-.works {
+/* .works {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* flex-basis: 22rem; */
-}
+} */
+/* .mobile {
+  display: flex;
+  justify-content: center;
+} */

@@ -9,6 +9,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./style/app.css";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
+
 import Container from "react-bootstrap/Container";
 import { useMediaQuery } from "react-responsive";
 
@@ -22,8 +24,9 @@ function App() {
   return (
     <div className="App">
       <Container>
+        {/* responsive for mobile */}
         {isTabletOrMobile && (
-          <div id="mobile">
+          <div className="mobile">
             <Navbar />
             <div id="header">
               <Header />
@@ -31,8 +34,11 @@ function App() {
             <div data-aos="fade-right" id="work">
               <Work />
             </div>
-            <div data-aos="fade-left">
+            <div className="mobile" data-aos="fade-left">
               <Skills />
+            </div>
+            <div data-aos="fade-right">
+              <Contact />
             </div>
           </div>
         )}
