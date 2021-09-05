@@ -13,6 +13,7 @@ import Contact from "./components/Contact";
 import Container from "react-bootstrap/Container";
 import { useMediaQuery } from "react-responsive";
 import { BsChevronDown } from "react-icons/bs";
+import Links from "./components/Links";
 
 function App() {
   const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 });
@@ -31,6 +32,13 @@ function App() {
           <div className="mobile">
             <div id="header">
               <Header />
+            </div>
+            <div className="mobile" data-aos="flip-up">
+              <div className="filler">
+                <h1>Find me on</h1>
+                <BsChevronDown />
+              </div>
+              <Links />
             </div>
             <div style={{ width: "100%" }} data-aos="fade-right" id="work">
               <div className="filler">

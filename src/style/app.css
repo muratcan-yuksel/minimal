@@ -50,7 +50,7 @@ body {
   align-items: center;
 }
 .filler {
-  height: 5em;
+  height: 3em;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -58,4 +58,12 @@ body {
   align-items: center;
   background: rgb(64, 72, 75);
   color: white;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.decorate {
+  text-decoration: none;
+  color: black;
 }

@@ -70,7 +70,7 @@ function Header() {
         }}
         startDelay={11500}
         cursorColor="#3F3D56"
-        multiText={["Find me at =>"]}
+        multiText={["Find me at..."]}
         multiTextDelay={1000}
         typeSpeed={50}
       />
