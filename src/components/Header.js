@@ -11,7 +11,7 @@ function Header() {
           fontWeight: 500,
           fontSize: "3em",
         }}
-        startDelay={2000}
+        startDelay={500}
         cursorColor="white"
         multiText={[
           "Hello, world.",
@@ -29,7 +29,7 @@ function Header() {
           fontWeight: 500,
           fontSize: "3em",
         }}
-        startDelay={3500}
+        startDelay={1500}
         cursorColor="white"
         multiText={["This is Murat."]}
         multiTextDelay={1000}
@@ -42,7 +42,7 @@ function Header() {
           fontWeight: 500,
           fontSize: "3em",
         }}
-        startDelay={5500}
+        startDelay={3500}
         cursorColor="white"
         multiText={["I'm a front-end web developer."]}
         multiTextDelay={1000}
@@ -55,7 +55,7 @@ function Header() {
           fontWeight: 500,
           fontSize: "3em",
         }}
-        startDelay={8000}
+        startDelay={6000}
         cursorColor="white"
         multiText={["My main focus is creating React.js applications."]}
         multiTextDelay={1000}
@@ -68,7 +68,7 @@ function Header() {
           fontWeight: 500,
           fontSize: "3em",
         }}
-        startDelay={11500}
+        startDelay={9500}
         cursorColor="#3F3D56"
         multiText={["Find me at..."]}
         multiTextDelay={1000}

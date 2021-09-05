@@ -69,6 +69,13 @@ function App() {
             <div style={{ height: "100vh" }}>
               <Header />
             </div>
+            <div data-aos="fade-left">
+              <div className="filler">
+                <h1>Find me on</h1>
+                <BsChevronDown />
+              </div>
+              <Links />
+            </div>
             <div>
               {" "}
               <div className="laptopMerge" data-aos="fade-right">
@@ -90,7 +97,9 @@ function App() {
                 </div>{" "}
               </div>
             </div>
-            <Contact />
+            <div class="form">
+              <Contact />
+            </div>
           </div>
         )}
 
