@@ -11,7 +11,7 @@ import Button from "react-bootstrap/Button";
 function Work() {
   return (
     <div className="works">
-      <h1>My latest works: </h1>
+      {/* <h1>My latest works: </h1> */}
       <Carousel variant="dark">
         <Carousel.Item>
           <Card style={{ width: "22rem" }}>

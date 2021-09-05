@@ -32,19 +32,24 @@ function App() {
               <Header />
             </div>
             <div data-aos="fade-right" id="work">
+              <div class="filler">
+                <h1>My latest works: </h1>
+                <BsChevronDown />
+              </div>
               <Work />
             </div>
-            <div className="mobile" data-aos="fade-left">
+            <div className="mobile" data-aos="flip-left">
               <div class="filler">
                 <h1>My tech stack</h1>
+                <BsChevronDown />
               </div>
               <Skills />
             </div>
-            <div class="filler">
-              <h1> Contact me! </h1>
-              <BsChevronDown />
-            </div>
-            <div data-aos="fade-right">
+            <div data-aos="slide-right">
+              <div class="filler">
+                <h1> Contact me! </h1>
+                <BsChevronDown />
+              </div>
               <Contact />
             </div>
           </div>
