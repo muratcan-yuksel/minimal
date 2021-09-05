@@ -61,9 +61,9 @@ function App() {
             <div style={{ height: "100vh" }}>
               <Header />
             </div>
-            <div id="laptopMerge">
+            <div>
               {" "}
-              <div data-aos="fade-right">
+              <div className="laptopMerge" data-aos="fade-right">
                 <div className="filler">
                   <h1>My latest works: </h1>
                   <BsChevronDown />
@@ -73,7 +73,7 @@ function App() {
               {/* split */}
               <div>
                 {" "}
-                <div data-aos="flip-left">
+                <div className="laptopMerge" data-aos="flip-left">
                   <div className="filler">
                     <h1>My tech stack</h1>
                     <BsChevronDown />
