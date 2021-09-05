@@ -20,7 +20,9 @@ body {
 } */
 /* .mobile {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 } */
 .filler {
   height: 5em;
@@ -41,4 +43,9 @@ body {
     #093637,
     #44a08d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#laptopMerge {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

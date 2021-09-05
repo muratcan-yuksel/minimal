@@ -10,7 +10,7 @@ import Button from "react-bootstrap/Button";
 
 function Work() {
   return (
-    <div className="works">
+    <div className="works" style={{ width: "22rem" }}>
       {/* <h1>My latest works: </h1> */}
       <Carousel variant="dark">
         <Carousel.Item>

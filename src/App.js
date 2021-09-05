@@ -16,6 +16,7 @@ import { BsChevronDown } from "react-icons/bs";
 
 function App() {
   const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 });
+  const isBigScreen = useMediaQuery({ minWidth: 1824 });
   const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 });
   //this aos is for the transition animations
   useEffect(() => {
@@ -24,34 +25,64 @@ function App() {
   return (
     <div className="App">
       <Container>
+        <Navbar />
         {/* responsive for mobile */}
         {isTabletOrMobile && (
           <div className="mobile">
-            <Navbar />
             <div id="header">
               <Header />
             </div>
-            <div data-aos="fade-right" id="work">
-              <div class="filler">
+            <div style={{ width: "100%" }} data-aos="fade-right" id="work">
+              <div className="filler">
                 <h1>My latest works: </h1>
                 <BsChevronDown />
               </div>
               <Work />
             </div>
             <div className="mobile" data-aos="flip-left">
-              <div class="filler">
+              <div className="filler">
                 <h1>My tech stack</h1>
                 <BsChevronDown />
               </div>
               <Skills />
             </div>
             <div data-aos="slide-right">
-              <div class="filler">
+              <div className="filler">
                 <h1> Contact me! </h1>
                 <BsChevronDown />
               </div>
               <Contact />
             </div>
+          </div>
+        )}
+        {/* for laptops */}
+        {isDesktopOrLaptop && (
+          <div>
+            <div style={{ height: "100vh" }}>
+              <Header />
+            </div>
+            <div id="laptopMerge">
+              {" "}
+              <div data-aos="fade-right">
+                <div className="filler">
+                  <h1>My latest works: </h1>
+                  <BsChevronDown />
+                </div>
+                <Work />{" "}
+              </div>
+              {/* split */}
+              <div>
+                {" "}
+                <div data-aos="flip-left">
+                  <div className="filler">
+                    <h1>My tech stack</h1>
+                    <BsChevronDown />
+                  </div>
+                  <Skills />
+                </div>{" "}
+              </div>
+            </div>
+            <Contact />
           </div>
         )}
 
