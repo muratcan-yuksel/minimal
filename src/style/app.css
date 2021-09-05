@@ -12,11 +12,9 @@ body {
 
 .divs {
   height: 100vh;
-  border: 1px solid red;
 }
 #header {
   height: 100vh;
-  border: 1px solid blue;
 }
 /* .works {
   display: flex;
