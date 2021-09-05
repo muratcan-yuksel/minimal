@@ -97,7 +97,11 @@ function App() {
                 </div>{" "}
               </div>
             </div>
-            <div class="form">
+            <div data-aos="slide-right">
+              <div className="filler">
+                <h1> Contact me! </h1>
+                <BsChevronDown />
+              </div>
               <Contact />
             </div>
           </div>

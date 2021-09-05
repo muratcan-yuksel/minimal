@@ -6,7 +6,6 @@ function Header() {
     <div>
       <TypeWriterEffect
         textStyle={{
-          fontFamily: "Red Hat Display",
           color: "#3F3D56",
           fontWeight: 500,
           fontSize: "3em",
@@ -24,7 +23,6 @@ function Header() {
       />
       <TypeWriterEffect
         textStyle={{
-          fontFamily: "Red Hat Display",
           color: "#3F3D56",
           fontWeight: 500,
           fontSize: "3em",
@@ -37,7 +35,6 @@ function Header() {
       />
       <TypeWriterEffect
         textStyle={{
-          fontFamily: "Red Hat Display",
           color: "#3F3D56",
           fontWeight: 500,
           fontSize: "3em",
@@ -50,7 +47,6 @@ function Header() {
       />
       <TypeWriterEffect
         textStyle={{
-          fontFamily: "Red Hat Display",
           color: "#3F3D56",
           fontWeight: 500,
           fontSize: "3em",
@@ -61,9 +57,8 @@ function Header() {
         multiTextDelay={1000}
         typeSpeed={50}
       />
-      <TypeWriterEffect
+      {/* <TypeWriterEffect
         textStyle={{
-          fontFamily: "Red Hat Display",
           color: "#3F3D56",
           fontWeight: 500,
           fontSize: "3em",
@@ -73,7 +68,7 @@ function Header() {
         multiText={["Find me at..."]}
         multiTextDelay={1000}
         typeSpeed={50}
-      />
+      /> */}
     </div>
   );
 }

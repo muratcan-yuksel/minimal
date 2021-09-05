@@ -1,7 +1,13 @@
+@font-face {
+  font-family: "Connection";
+  src: url("../fonts/ConnectionIi-2wj8.otf") format("opentype");
+}
+
 body {
   /* bence bunu 100 vh almam gerekecek */
   height: 100%;
   margin: 0;
+  font-family: "Connection";
 }
 
 .divs {
