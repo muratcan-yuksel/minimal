@@ -10,9 +10,9 @@ import "aos/dist/aos.css";
 import "./style/app.css";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-
 import Container from "react-bootstrap/Container";
 import { useMediaQuery } from "react-responsive";
+import { BsChevronDown } from "react-icons/bs";
 
 function App() {
   const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 });
@@ -35,7 +35,14 @@ function App() {
               <Work />
             </div>
             <div className="mobile" data-aos="fade-left">
+              <div class="filler">
+                <h1>My tech stack</h1>
+              </div>
               <Skills />
+            </div>
+            <div class="filler">
+              <h1> Contact me! </h1>
+              <BsChevronDown />
             </div>
             <div data-aos="fade-right">
               <Contact />

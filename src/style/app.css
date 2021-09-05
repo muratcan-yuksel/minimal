@@ -22,3 +22,12 @@ body {
   display: flex;
   justify-content: center;
 } */
+.filler {
+  height: 5em;
+  width: 100%;
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
