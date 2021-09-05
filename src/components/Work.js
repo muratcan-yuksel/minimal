@@ -1,39 +1,71 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Mathimals from "../images/Mathimals.png";
-import shoppingCart from "../images/shopping-cart-2.png";
+import shoppingCart from "../images/shopping-cart.png";
 import memoryCard from "../images/memory-card.png";
 import Image from "react-bootstrap/Image";
+import "../style/app.css";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 function Work() {
   return (
-    <Carousel variant="dark">
-      <Carousel.Item>
-        <img className="d-block w-100" src={Mathimals} alt="First slide" />
-        asdfasdfasdf
-        <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" src={shoppingCart} alt="Second slide" />
-        lallllllll
-        <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" src={memoryCard} alt="Third slide" />
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <div>
+      <h1>My latest works: </h1>
+      <Carousel variant="dark" className="images">
+        <Carousel.Item>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              style={{ height: "60vh" }}
+              variant="top"
+              src={Mathimals}
+            />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              style={{ height: "60vh" }}
+              variant="top"
+              src={shoppingCart}
+            />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              style={{ height: "60vh" }}
+              variant="top"
+              src={memoryCard}
+            />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+        </Carousel.Item>
+      </Carousel>
+    </div>
   );
 }
 
