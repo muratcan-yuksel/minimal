@@ -20,11 +20,18 @@ function Links() {
         <AiOutlineTwitter size={50} />
       </a>
       <a
-        class="decorate"
+        className="decorate"
         href="https://muratcanyuksel.hashnode.dev/"
         target="_blank"
       >
         My blog
+      </a>
+      <a
+        className="decorate"
+        href="../assets/Murat Can Yüksel's Resume.pdf"
+        target="_blank"
+      >
+        Download CV
       </a>
     </div>
   );

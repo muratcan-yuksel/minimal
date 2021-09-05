@@ -7,7 +7,7 @@ body {
   /* bence bunu 100 vh almam gerekecek */
   height: 100%;
   margin: 0;
-  font-family: "Connection";
+  font-family: "Connection", "Times New Roman", Times, serif;
 }
 
 .divs {

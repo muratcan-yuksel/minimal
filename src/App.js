@@ -33,7 +33,7 @@ function App() {
             <div id="header">
               <Header />
             </div>
-            <div className="mobile" data-aos="flip-up">
+            <div className="mobile" data-aos="zoom-in">
               <div className="filler">
                 <h1>Find me on</h1>
                 <BsChevronDown />
