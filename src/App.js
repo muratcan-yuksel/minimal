@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 // import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Skills from "./components/Skills";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./style/app.css";
@@ -22,8 +23,11 @@ function App() {
         <div id="header">
           <Header />
         </div>
-        <div data-aos="fade-left" id="work">
+        <div data-aos="fade-right" id="work">
           <Work />
+        </div>
+        <div data-aos="fade-left">
+          <Skills />
         </div>
         {/* <div className="divs" data-aos="fade-up">
         My work:
