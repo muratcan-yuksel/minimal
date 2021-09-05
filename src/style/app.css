@@ -12,14 +12,10 @@ body {
   height: 100vh;
   border: 1px solid blue;
 }
-/* #work {
-  height: 300px;
-  width: 300px;
-  border: 2px solid green;
-} */
-/* .images {
-  height: 100vh;
-} */
-/* img {
-  height: 60vh;
-} */
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-basis: 22rem; */
+}

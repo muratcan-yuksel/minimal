@@ -22,7 +22,7 @@ function App() {
         <div id="header">
           <Header />
         </div>
-        <div id="work">
+        <div data-aos="fade-left" id="work">
           <Work />
         </div>
         {/* <div className="divs" data-aos="fade-up">

@@ -10,11 +10,11 @@ import Button from "react-bootstrap/Button";
 
 function Work() {
   return (
-    <div>
+    <div className="works">
       <h1>My latest works: </h1>
-      <Carousel variant="dark" className="images">
+      <Carousel variant="dark">
         <Carousel.Item>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "22rem" }}>
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"
@@ -31,7 +31,7 @@ function Work() {
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "22rem" }}>
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"
@@ -48,7 +48,7 @@ function Work() {
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "22rem" }}>
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"
