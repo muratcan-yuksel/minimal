@@ -5,10 +5,16 @@ function Skills() {
   return (
     <div>
       <ListGroup variant="flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-        <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+        <ListGroup.Item>HTML</ListGroup.Item>
+        <ListGroup.Item>CSS</ListGroup.Item>
+        <ListGroup.Item>Javascript (ES6)</ListGroup.Item>
+        <ListGroup.Item>React.js</ListGroup.Item>
+        <ListGroup.Item>Bootstrap 5</ListGroup.Item>
+        <ListGroup.Item>React-Bootstrap</ListGroup.Item>
+        <ListGroup.Item>Webpack</ListGroup.Item>
+        <ListGroup.Item>Jest</ListGroup.Item>
+        <ListGroup.Item>Git</ListGroup.Item>
+        <ListGroup.Item>Figma</ListGroup.Item>
       </ListGroup>
     </div>
   );

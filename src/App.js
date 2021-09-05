@@ -64,7 +64,7 @@ function App() {
             <div>
               {" "}
               <div className="laptopMerge" data-aos="fade-right">
-                <div className="filler">
+                <div style={{ width: "35rem" }} className="filler">
                   <h1>My latest works: </h1>
                   <BsChevronDown />
                 </div>
@@ -74,7 +74,7 @@ function App() {
               <div>
                 {" "}
                 <div className="laptopMerge" data-aos="flip-left">
-                  <div className="filler">
+                  <div style={{ width: "35rem" }} className="filler">
                     <h1>My tech stack</h1>
                     <BsChevronDown />
                   </div>
