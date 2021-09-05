@@ -10,8 +10,11 @@ import "aos/dist/aos.css";
 import "./style/app.css";
 import Work from "./components/Work";
 import Container from "react-bootstrap/Container";
+import { useMediaQuery } from "react-responsive";
 
 function App() {
+  const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 });
+  const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 });
   //this aos is for the transition animations
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -19,16 +22,21 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <Navbar />
-        <div id="header">
-          <Header />
-        </div>
-        <div data-aos="fade-right" id="work">
-          <Work />
-        </div>
-        <div data-aos="fade-left">
-          <Skills />
-        </div>
+        {isTabletOrMobile && (
+          <div id="mobile">
+            <Navbar />
+            <div id="header">
+              <Header />
+            </div>
+            <div data-aos="fade-right" id="work">
+              <Work />
+            </div>
+            <div data-aos="fade-left">
+              <Skills />
+            </div>
+          </div>
+        )}
+
         {/* <div className="divs" data-aos="fade-up">
         My work:
       </div>
