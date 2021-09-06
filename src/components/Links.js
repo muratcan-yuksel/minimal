@@ -3,6 +3,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import "../style/app.css";
+import resume from "../assets/Murat Can Yüksel's Resume.pdf";
 
 function Links() {
   return (
@@ -26,11 +27,7 @@ function Links() {
       >
         My blog
       </a>
-      <a
-        className="decorate"
-        href="../assets/Murat Can Yüksel's Resume.pdf"
-        target="_blank"
-      >
+      <a className="decorate" href={resume} download={resume} target="_blank">
         Download CV
       </a>
     </div>
