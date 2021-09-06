@@ -32,7 +32,7 @@ function Work() {
               <Button
                 href="https://muratcan-yuksel.github.io/Mathimals/"
                 target="_blank"
-                variant="primary"
+                variant="warning"
                 style={{ margin: "2px" }}
               >
                 Live demo
@@ -40,7 +40,7 @@ function Work() {
               <Button
                 href="https://anna-murat.itch.io/mathimals"
                 target="_blank"
-                variant="primary"
+                variant="warning"
                 style={{ margin: "2px" }}
               >
                 Itch.io demo
@@ -48,7 +48,7 @@ function Work() {
               <Button
                 href="https://github.com/muratcan-yuksel/Mathimals"
                 target="_blank"
-                variant="primary"
+                variant="warning"
                 style={{ margin: "2px" }}
               >
                 Source code
@@ -74,7 +74,7 @@ function Work() {
               <Button
                 href="https://dreamy-saha-641e2a.netlify.app/"
                 target="_blank"
-                variant="primary"
+                variant="warning"
                 style={{ margin: "2px" }}
               >
                 Live demo
@@ -82,7 +82,7 @@ function Work() {
               <Button
                 href="https://github.com/muratcan-yuksel/shopping-cart-react"
                 target="_blank"
-                variant="primary"
+                variant="warning"
                 style={{ margin: "2px" }}
               >
                 Source code
@@ -106,7 +106,7 @@ function Work() {
               <Button
                 href="https://muratcan-yuksel.github.io/memory-card/"
                 target="_blank"
-                variant="primary"
+                variant="warning"
                 style={{ margin: "2px" }}
               >
                 Live demo
@@ -114,7 +114,7 @@ function Work() {
               <Button
                 href="https://github.com/muratcan-yuksel/memory-card"
                 target="_blank"
-                variant="primary"
+                variant="warning"
                 style={{ margin: "2px" }}
               >
                 Source code
