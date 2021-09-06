@@ -66,10 +66,27 @@ function Work() {
             <Card.Body>
               <Card.Title>E-commerce Website</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A mock-up e-commerce website where the user can add items in a
+                shopping cart that evaluates the total sum that'll be paid. Made
+                with React, Context API for global state management, and React
+                Router for linking.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button
+                href="https://dreamy-saha-641e2a.netlify.app/"
+                target="_blank"
+                variant="primary"
+                style={{ margin: "2px" }}
+              >
+                Live demo
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/shopping-cart-react"
+                target="_blank"
+                variant="primary"
+                style={{ margin: "2px" }}
+              >
+                Source code
+              </Button>
             </Card.Body>
           </Card>
         </Carousel.Item>
@@ -83,10 +100,25 @@ function Work() {
             <Card.Body>
               <Card.Title>Memory game with philosophers</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A memory game made with React and Bootstrap 5. The user needs to
+                choose a different card on each refresh.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button
+                href="https://muratcan-yuksel.github.io/memory-card/"
+                target="_blank"
+                variant="primary"
+                style={{ margin: "2px" }}
+              >
+                Live demo
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/memory-card"
+                target="_blank"
+                variant="primary"
+                style={{ margin: "2px" }}
+              >
+                Source code
+              </Button>
             </Card.Body>
           </Card>
         </Carousel.Item>
