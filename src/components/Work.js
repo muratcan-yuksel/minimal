@@ -21,12 +21,38 @@ function Work() {
               src={Mathimals}
             />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>Mathimals</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A game done by an international group of coders that strives to
+                teach kids some basic math, animal names, and spelling. In the
+                front-end Vanilla JS is used. For the back-end, we chose Google
+                Firestore. First 5 fastest typers are shown on the best scores
+                list. The game is made for The Odin Project's 1st game-jam.
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button
+                href="https://muratcan-yuksel.github.io/Mathimals/"
+                target="_blank"
+                variant="primary"
+                style={{ margin: "2px" }}
+              >
+                Live demo
+              </Button>
+              <Button
+                href="https://anna-murat.itch.io/mathimals"
+                target="_blank"
+                variant="primary"
+                style={{ margin: "2px" }}
+              >
+                Itch.io demo
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/Mathimals"
+                target="_blank"
+                variant="primary"
+                style={{ margin: "2px" }}
+              >
+                Source code
+              </Button>
             </Card.Body>
           </Card>
         </Carousel.Item>
@@ -38,7 +64,7 @@ function Work() {
               src={shoppingCart}
             />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>E-commerce Website</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -55,7 +81,7 @@ function Work() {
               src={memoryCard}
             />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>Memory game with philosophers</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
