@@ -7,12 +7,51 @@ import Image from "react-bootstrap/Image";
 import "../style/app.css";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import binance from "../images/binance.png";
 
 function Work() {
   return (
     <div className="works" style={{ width: "22rem" }}>
       {/* <h1>My latest works: </h1> */}
       <Carousel variant="dark">
+        <Carousel.Item>
+          <Card style={{ width: "22rem" }}>
+            <Card.Img style={{ height: "60vh" }} variant="top" src={binance} />
+            <Card.Body>
+              <Card.Title>Binance clone</Card.Title>
+              <Card.Text>
+                This app provides the user with realtime btc/usd exchange rates.
+                Tech used=> React.js/redux-toolkit, websockets. I initially made
+                the app using vite instead of create-react-app, and state hooks.
+                They both work the same. I'll provide the source codes.
+              </Card.Text>
+              <Button
+                href="https://muratcan-yuksel.github.io/skyneb-app/"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                Live demo
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/websockets"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                Source code with state hooks and vite
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/skyneb-app"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                Source code with redux and create-react-app
+              </Button>
+            </Card.Body>
+          </Card>
+        </Carousel.Item>
         <Carousel.Item>
           <Card style={{ width: "22rem" }}>
             <Card.Img
