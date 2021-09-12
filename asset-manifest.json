@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/minimal/static/css/main.c0588415.chunk.css",
-    "main.js": "/minimal/static/js/main.da7055ef.chunk.js",
-    "main.js.map": "/minimal/static/js/main.da7055ef.chunk.js.map",
+    "main.js": "/minimal/static/js/main.5f8fb231.chunk.js",
+    "main.js.map": "/minimal/static/js/main.5f8fb231.chunk.js.map",
     "runtime-main.js": "/minimal/static/js/runtime-main.a7a73d53.js",
     "runtime-main.js.map": "/minimal/static/js/runtime-main.a7a73d53.js.map",
     "static/css/2.8a830cc8.chunk.css": "/minimal/static/css/2.8a830cc8.chunk.css",
@@ -14,7 +14,7 @@
     "static/js/2.64a9ba79.chunk.js.LICENSE.txt": "/minimal/static/js/2.64a9ba79.chunk.js.LICENSE.txt",
     "static/media/app.css": "/minimal/static/media/ConnectionIi-2wj8.b9d19ebc.otf",
     "static/media/Mathimals.b291b245.png": "/minimal/static/media/Mathimals.b291b245.png",
-    "static/media/Murat Can Yüksel's Resume.39c8f641.pdf": "/minimal/static/media/Murat Can Yüksel's Resume.39c8f641.pdf",
+    "static/media/Murat Can Yüksel, 9_2021 resumé.c6a428f2.pdf": "/minimal/static/media/Murat Can Yüksel, 9_2021 resumé.c6a428f2.pdf",
     "static/media/binance.2a9f9d15.png": "/minimal/static/media/binance.2a9f9d15.png",
     "static/media/memory-card.657a8afb.png": "/minimal/static/media/memory-card.657a8afb.png",
     "static/media/shopping-cart.3330a557.png": "/minimal/static/media/shopping-cart.3330a557.png"
@@ -24,6 +24,6 @@
     "static/css/2.8a830cc8.chunk.css",
     "static/js/2.64a9ba79.chunk.js",
     "static/css/main.c0588415.chunk.css",
-    "static/js/main.da7055ef.chunk.js"
+    "static/js/main.5f8fb231.chunk.js"
   ]
 }
