@@ -1,0 +1,25 @@
+#workComponent {
+  background-color: black;
+}
+.imageContainer {
+  height: 500px;
+  width: 300px;
+}
+.image {
+  height: 100%;
+  width: 100%;
+}
+.works {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-left: 10em;
+}
+.workImage {
+  object-fit: contain;
+}
+.carousels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

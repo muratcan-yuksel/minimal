@@ -11,11 +11,11 @@ import binance from "../images/binance.png";
 
 function Work() {
   return (
-    <div className="works" style={{ width: "42rem" }}>
+    <div className="works" style={{ width: "22rem" }}>
       {/* <h1>My latest works: </h1> */}
       <Carousel variant="dark">
         <Carousel.Item>
-          <Card style={{ width: "42rem" }}>
+          <Card style={{ width: "22rem" }}>
             <Card.Img style={{ height: "60vh" }} variant="top" src={binance} />
             <Card.Body>
               <Card.Title>Binance clone</Card.Title>
@@ -53,7 +53,7 @@ function Work() {
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={{ width: "42rem" }}>
+          <Card style={{ width: "22rem" }}>
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"
@@ -96,7 +96,7 @@ function Work() {
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={{ width: "42rem" }}>
+          <Card style={{ width: "22rem" }}>
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"
@@ -130,7 +130,7 @@ function Work() {
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={{ width: "42rem" }}>
+          <Card style={{ width: "22rem" }}>
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"

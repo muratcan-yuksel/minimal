@@ -25,7 +25,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Container>
+      <Container fluid>
         <Navbar />
         {/* responsive for mobile */}
         {isTabletOrMobile && (
@@ -45,7 +45,9 @@ function App() {
                 <h1>My latest works: </h1>
                 <BsChevronDown />
               </div>
-              <Work />
+              <div className="mobileWork">
+                <Work />
+              </div>
             </div>
             <div className="mobile" data-aos="flip-left">
               <div className="filler">
@@ -83,7 +85,9 @@ function App() {
                   <h1>My latest works: </h1>
                   <BsChevronDown />
                 </div>
-                <Work />{" "}
+                <div className="mobileWork">
+                  <Work />{" "}
+                </div>
               </div>
               {/* split */}
               <div>
@@ -106,19 +110,6 @@ function App() {
             </div>
           </div>
         )}
-
-        {/* <div className="divs" data-aos="fade-up">
-        My work:
-      </div>
-      <div className="divs" data-aos="fade-left">
-        alfjasfasfjlasdfljaflafş asfd asdfk af asdf asdfki sadfkasdifkasdfk
-      </div>{" "}
-      <div className="divs" data-aos="fade-down">
-        lolo
-      </div>{" "}
-      <div className="divs" data-aos="fade-up">
-        lolo
-      </div> */}
       </Container>
     </div>
   );

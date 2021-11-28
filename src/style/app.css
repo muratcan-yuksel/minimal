@@ -2,10 +2,15 @@
   font-family: "Connection";
   src: url("../fonts/ConnectionIi-2wj8.otf") format("opentype");
 }
-
+/* .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 body {
   /* bence bunu 100 vh almam gerekecek */
   height: 100%;
+  width: 100vw;
   margin: 0;
   font-family: "Connection", "Times New Roman", Times, serif;
 }
@@ -53,6 +58,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+.mobileWork {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .filler {
   height: 3em;
   width: 100%;
@@ -79,3 +91,7 @@ body {
   justify-content: center;
   align-items: center;
 } */
+
+#workComponentStyle {
+  width: 100vw;
+}
