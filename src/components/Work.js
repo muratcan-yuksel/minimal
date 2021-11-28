@@ -38,7 +38,7 @@ function Work() {
                 </p>
               </Card.Text>
               <Button
-                href="https://my-web3-app.vercel.app/"
+                href="https://my-nft-collection.herokuapp.com/"
                 target="_blank"
                 variant="warning"
                 style={{ margin: "2px" }}
@@ -46,7 +46,7 @@ function Work() {
                 Live demo
               </Button>
               <Button
-                href="https://github.com/muratcan-yuksel/wave-portal-solidity"
+                href="https://github.com/muratcan-yuksel/epic-nfts"
                 target="_blank"
                 variant="warning"
                 style={{ margin: "2px" }}
@@ -54,7 +54,7 @@ function Work() {
                 Solidity code
               </Button>
               <Button
-                href="https://github.com/muratcan-yuksel/waveportal-starter-project"
+                href="https://github.com/muratcan-yuksel/my-nft-collection"
                 target="_blank"
                 variant="warning"
                 style={{ margin: "2px" }}
