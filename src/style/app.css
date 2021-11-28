@@ -2,17 +2,17 @@
   font-family: "Connection";
   src: url("../fonts/ConnectionIi-2wj8.otf") format("opentype");
 }
-/* .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+
 body {
   /* bence bunu 100 vh almam gerekecek */
   height: 100%;
   width: 100vw;
   margin: 0;
   font-family: "Connection", "Times New Roman", Times, serif;
+}
+.App {
+  background-color: #212529;
+  color: white;
 }
 
 .divs {
@@ -21,37 +21,7 @@ body {
 #header {
   height: 100vh;
 }
-/* .works {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-/* .mobile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-/* .filler {
-  height: 5em;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #44a08d; 
-  background: -webkit-linear-gradient(
-    to right,
-    #093637,
-    #44a08d
-  ); 
-  background: linear-gradient(
-    to right,
-    #093637,
-    #44a08d
-  ); 
-} */
+
 .laptopMerge {
   display: flex;
   flex-direction: column;

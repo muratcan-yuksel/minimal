@@ -1,25 +1,50 @@
 import React from "react";
-import ListGroup from "react-bootstrap/ListGroup";
+import Table from "react-bootstrap/Table";
 
-function Skills() {
+const Skills = () => {
   return (
     <div>
-      <ListGroup variant="flush">
-        <ListGroup.Item>HTML</ListGroup.Item>
-        <ListGroup.Item>CSS</ListGroup.Item>
-        <ListGroup.Item>Javascript (ES6)</ListGroup.Item>
-        <ListGroup.Item>React.js</ListGroup.Item>
-        <ListGroup.Item>Redux</ListGroup.Item>
-        <ListGroup.Item>Bootstrap 5</ListGroup.Item>
-        <ListGroup.Item>React-Bootstrap</ListGroup.Item>
-        <ListGroup.Item>Webpack</ListGroup.Item>
-        <ListGroup.Item>Jest</ListGroup.Item>
-        <ListGroup.Item>Websockets</ListGroup.Item>
-        <ListGroup.Item>Git</ListGroup.Item>
-        <ListGroup.Item>Figma</ListGroup.Item>
-      </ListGroup>
+      <Table striped bordered hover variant="dark">
+        {/* <thead>
+          <tr>
+            <th>Tech stack</th>
+          </tr>
+        </thead> */}
+        <tbody>
+          <tr>
+            <td>Vanilla Javascript/React.js/Vuejs</td>
+          </tr>
+          <tr>
+            <td>Ruby/ Ruby on Rails</td>
+          </tr>{" "}
+          <tr>
+            <td>-Solidity/hardhat</td>
+          </tr>{" "}
+          <tr>
+            <td>Bootstrap/React-Bootstrap/Chakra UI</td>
+          </tr>{" "}
+          <tr>
+            <td>Jest/React Testing Library</td>
+          </tr>{" "}
+          <tr>
+            <td>MongoDB/Google Firebase/Cloud Firestore</td>
+          </tr>{" "}
+          <tr>
+            <td>Chartjs/Apexcharts</td>
+          </tr>{" "}
+          <tr>
+            <td>HTML/CSS</td>
+          </tr>{" "}
+          <tr>
+            <td>Webpack</td>
+          </tr>{" "}
+          <tr>
+            <td>Git</td>
+          </tr>
+        </tbody>
+      </Table>
     </div>
   );
-}
+};
 
 export default Skills;

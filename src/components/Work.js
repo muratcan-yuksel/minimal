@@ -13,13 +13,13 @@ function Work() {
   return (
     <div className="works" style={{ width: "42rem" }}>
       {/* <h1>My latest works: </h1> */}
-      <Carousel variant="dark">
-        <Carousel.Item>
-          <Card style={{ width: "42rem" }}>
+      <Carousel fade>
+        <Carousel.Item className="cardText">
+          <Card style={{ width: "42rem" }} bg="dark" text="white">
             <Card.Img style={{ height: "60vh" }} variant="top" src={binance} />
             <Card.Body>
               <Card.Title>Binance clone</Card.Title>
-              <Card.Text>
+              <Card.Text className="cardText">
                 This app provides the user with realtime btc/usd exchange rates.
                 Tech used=> React.js/redux-toolkit, websockets. I initially made
                 the app using vite instead of create-react-app, and state hooks.
@@ -53,7 +53,7 @@ function Work() {
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={{ width: "42rem" }}>
+          <Card style={{ width: "42rem" }} bg="dark" text="white">
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"
@@ -96,7 +96,7 @@ function Work() {
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={{ width: "42rem" }}>
+          <Card style={{ width: "42rem" }} bg="dark" text="white">
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"
@@ -130,7 +130,7 @@ function Work() {
           </Card>
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={{ width: "42rem" }}>
+          <Card style={{ width: "42rem" }} bg="dark" text="white">
             <Card.Img
               style={{ height: "60vh" }}
               variant="top"
