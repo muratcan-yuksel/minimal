@@ -45,9 +45,9 @@ function App() {
                 <h1>My latest works: </h1>
                 <BsChevronDown />
               </div>
-              <div className="mobileWork">
-                <Work />
-              </div>
+              {/* <div className="mobileWork"> */}
+              <Work />
+              {/* </div> */}
             </div>
             <div className="mobile" data-aos="flip-left">
               <div className="filler">
