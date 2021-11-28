@@ -8,13 +8,115 @@ import "../style/app.css";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import binance from "../images/binance.png";
+import smartContract from "../images/smart.png";
+import NFT from "../images/NFT.png";
 
 function Work() {
   return (
     <div className="works" style={{ width: "42rem" }}>
       {/* <h1>My latest works: </h1> */}
       <Carousel fade>
-        <Carousel.Item className="cardText">
+        <Carousel.Item>
+          <Card style={{ width: "42rem" }} bg="dark" text="white">
+            <Card.Img style={{ height: "60vh" }} variant="top" src={NFT} />
+            <Card.Body>
+              <Card.Title>NFT collection</Card.Title>
+              <Card.Text className="cardText">
+                <p className="text">
+                  An NFT collection made with ReactJS and Solidity
+                </p>
+                <p className="text">
+                  In order to connect to the app, you need a crypto wallet (like
+                  Metamask)
+                </p>
+                <p className="text">
+                  After connecting, you can mint a unique NFT
+                </p>
+                <p className="text">
+                  It's deployed on the rinkeby network, so it doesn't cost real
+                  money to interact with
+                </p>
+              </Card.Text>
+              <Button
+                href="https://my-web3-app.vercel.app/"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                Live demo
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/wave-portal-solidity"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                Solidity code
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/waveportal-starter-project"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                React code
+              </Button>
+            </Card.Body>
+          </Card>
+        </Carousel.Item>{" "}
+        <Carousel.Item>
+          <Card style={{ width: "42rem" }} bg="dark" text="white">
+            <Card.Img
+              style={{ height: "60vh" }}
+              variant="top"
+              src={smartContract}
+            />
+            <Card.Body>
+              <Card.Title>Web3 app</Card.Title>
+              <Card.Text className="cardText">
+                <p className="text">
+                  A smart contract made with ReactJS and Solidity
+                </p>
+                <p className="text">
+                  In order to connect to the app, you need a crypto wallet (like
+                  Metamask)
+                </p>
+                <p className="text">
+                  After connecting, you can write a message and wave
+                </p>
+                <p className="text">
+                  It's deployed on the rinkeby network, so it doesn't cost real
+                  money to interact with
+                </p>
+              </Card.Text>
+              <Button
+                href="https://my-web3-app.vercel.app/"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                Live demo
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/wave-portal-solidity"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                Solidity code
+              </Button>
+              <Button
+                href="https://github.com/muratcan-yuksel/waveportal-starter-project"
+                target="_blank"
+                variant="warning"
+                style={{ margin: "2px" }}
+              >
+                React code
+              </Button>
+            </Card.Body>
+          </Card>
+        </Carousel.Item>{" "}
+        <Carousel.Item>
           <Card style={{ width: "42rem" }} bg="dark" text="white">
             <Card.Img style={{ height: "60vh" }} variant="top" src={binance} />
             <Card.Body>
@@ -86,72 +188,6 @@ function Work() {
               </Button>
               <Button
                 href="https://github.com/muratcan-yuksel/Mathimals"
-                target="_blank"
-                variant="warning"
-                style={{ margin: "2px" }}
-              >
-                Source code
-              </Button>
-            </Card.Body>
-          </Card>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Card style={{ width: "42rem" }} bg="dark" text="white">
-            <Card.Img
-              style={{ height: "60vh" }}
-              variant="top"
-              src={shoppingCart}
-            />
-            <Card.Body>
-              <Card.Title>E-commerce Website</Card.Title>
-              <Card.Text>
-                A mock-up e-commerce website where the user can add items in a
-                shopping cart that evaluates the total sum that'll be paid. Made
-                with React, Context API for global state management, and React
-                Router for linking.
-              </Card.Text>
-              <Button
-                href="https://dreamy-saha-641e2a.netlify.app/"
-                target="_blank"
-                variant="warning"
-                style={{ margin: "2px" }}
-              >
-                Live demo
-              </Button>
-              <Button
-                href="https://github.com/muratcan-yuksel/shopping-cart-react"
-                target="_blank"
-                variant="warning"
-                style={{ margin: "2px" }}
-              >
-                Source code
-              </Button>
-            </Card.Body>
-          </Card>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Card style={{ width: "42rem" }} bg="dark" text="white">
-            <Card.Img
-              style={{ height: "60vh" }}
-              variant="top"
-              src={memoryCard}
-            />
-            <Card.Body>
-              <Card.Title>Memory game with philosophers</Card.Title>
-              <Card.Text>
-                A memory game made with React and Bootstrap 5. The user needs to
-                choose a different card on each refresh.
-              </Card.Text>
-              <Button
-                href="https://muratcan-yuksel.github.io/memory-card/"
-                target="_blank"
-                variant="warning"
-                style={{ margin: "2px" }}
-              >
-                Live demo
-              </Button>
-              <Button
-                href="https://github.com/muratcan-yuksel/memory-card"
                 target="_blank"
                 variant="warning"
                 style={{ margin: "2px" }}

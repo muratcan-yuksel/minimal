@@ -9,13 +9,13 @@ function NavbarComp() {
       <Container>
         <Navbar.Brand href="#home">
           <div>
-            <p>Murat Can Yüksel</p>
+            {/* <p>Murat Can Yüksel</p> */}
             {/* <p>React.js developer</p> */}
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="me-auto">
             <Nav.Link
               href="https://www.linkedin.com/in/murat-can-y%C3%BCksel-2b1347119/"
               target="_blank"
