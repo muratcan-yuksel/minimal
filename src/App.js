@@ -97,17 +97,19 @@ function App() {
                     <h1>My tech stack</h1>
                     <BsChevronDown />
                   </div>
-                  <Skills />
+                  <div className="skillsDiv">
+                    <Skills />
+                  </div>
                 </div>{" "}
               </div>
             </div>
-            <div data-aos="slide-right">
+            {/* <div data-aos="slide-right">
               <div className="filler">
                 <h1> Contact me! </h1>
                 <BsChevronDown />
               </div>
               <Contact />
-            </div>
+            </div> */}
           </div>
         )}
       </Container>

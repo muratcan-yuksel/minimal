@@ -1,74 +1,80 @@
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
+import "../style/app.css";
 
 function Header() {
   return (
     <div>
       <TypeWriterEffect
+        className="typeWriter"
         textStyle={{
-          color: "#3F3D56",
+          color: "white",
           fontWeight: 500,
           fontSize: "3em",
+          margin: "1em 0 10px 1em",
+          textShadow:
+            "0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,   0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff",
         }}
         startDelay={500}
         cursorColor="white"
-        multiText={[
-          "Hello, world.",
-          // "I'm a front-end web developer",
-          // "My main focus is creating React.js applications",
-          // "Contact me by =>",
-        ]}
+        multiText={["Hello, world."]}
         multiTextDelay={1000}
         typeSpeed={50}
       />
       <TypeWriterEffect
+        className="typeWriter"
         textStyle={{
-          color: "#3F3D56",
+          color: "white",
           fontWeight: 500,
           fontSize: "3em",
+          margin: "1em 0 10px 1em",
+
+          textShadow:
+            "0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,   0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff",
         }}
         startDelay={1500}
         cursorColor="white"
-        multiText={["This is Murat."]}
+        multiText={["This is Murat. I'm a web developer."]}
         multiTextDelay={1000}
         typeSpeed={50}
       />
       <TypeWriterEffect
+        className="typeWriter"
         textStyle={{
-          color: "#3F3D56",
+          color: "white",
           fontWeight: 500,
           fontSize: "3em",
+          margin: "1em 0 10px 1em",
+
+          textShadow:
+            "0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,   0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff",
         }}
-        startDelay={3500}
+        startDelay={3000}
         cursorColor="white"
-        multiText={["I'm a front-end web developer."]}
-        multiTextDelay={1000}
+        multiText={["I work with VueJS and Ruby on Rails by day."]}
+        multiTextDelay={3000}
         typeSpeed={50}
       />
       <TypeWriterEffect
+        className="typeWriter"
         textStyle={{
-          color: "#3F3D56",
+          color: "white",
           fontWeight: 500,
           fontSize: "3em",
+          margin: "1em 0 10px 1em",
+
+          textShadow:
+            "0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,   0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff",
         }}
-        startDelay={6000}
+        startDelay={5000}
         cursorColor="white"
-        multiText={["My main focus is creating React.js applications."]}
+        multiText={["Solidity and ReactJS by night."]}
         multiTextDelay={1000}
         typeSpeed={50}
       />
-      {/* <TypeWriterEffect
-        textStyle={{
-          color: "#3F3D56",
-          fontWeight: 500,
-          fontSize: "3em",
-        }}
-        startDelay={9500}
-        cursorColor="#3F3D56"
-        multiText={["Find me at..."]}
-        multiTextDelay={1000}
-        typeSpeed={50}
-      /> */}
+      <div id="arrowDiv">
+        <p class="arrow">&#8681;</p>
+      </div>
     </div>
   );
 }

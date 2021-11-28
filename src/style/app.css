@@ -11,7 +11,7 @@ body {
   font-family: "Connection", "Times New Roman", Times, serif;
 }
 .App {
-  background-color: #212529;
+  background-color: black;
   color: white;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 .decorate {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 /* .form {
   display: flex;
@@ -64,4 +64,22 @@ body {
 
 #workComponentStyle {
   width: 100vw;
+}
+.skillsDiv {
+  width: 45em;
+}
+/* .contactDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+} */
+#arrowDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+.arrow {
+  font-size: 5em;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
 }
