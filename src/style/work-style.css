@@ -36,3 +36,7 @@
   background-color: black;
   margin: 2em;
 }
+.myCardBody {
+  padding: 8em;
+  background-color: black;
+}
