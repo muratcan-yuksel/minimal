@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/minimal/static/css/main.d63d1476.chunk.css",
-    "main.js": "/minimal/static/js/main.e3c4a414.chunk.js",
-    "main.js.map": "/minimal/static/js/main.e3c4a414.chunk.js.map",
-    "runtime-main.js": "/minimal/static/js/runtime-main.a7a73d53.js",
-    "runtime-main.js.map": "/minimal/static/js/runtime-main.a7a73d53.js.map",
-    "static/css/2.8a830cc8.chunk.css": "/minimal/static/css/2.8a830cc8.chunk.css",
-    "static/js/2.4f7b6483.chunk.js": "/minimal/static/js/2.4f7b6483.chunk.js",
-    "static/js/2.4f7b6483.chunk.js.map": "/minimal/static/js/2.4f7b6483.chunk.js.map",
+    "main.css": "/minimal/static/css/main.959872b6.chunk.css",
+    "main.js": "/minimal/static/js/main.c40e3e70.chunk.js",
+    "main.js.map": "/minimal/static/js/main.c40e3e70.chunk.js.map",
+    "runtime-main.js": "/minimal/static/js/runtime-main.420ec462.js",
+    "runtime-main.js.map": "/minimal/static/js/runtime-main.420ec462.js.map",
+    "static/css/2.c53e8639.chunk.css": "/minimal/static/css/2.c53e8639.chunk.css",
+    "static/js/2.a38fd688.chunk.js": "/minimal/static/js/2.a38fd688.chunk.js",
+    "static/js/2.a38fd688.chunk.js.map": "/minimal/static/js/2.a38fd688.chunk.js.map",
     "index.html": "/minimal/index.html",
-    "static/css/2.8a830cc8.chunk.css.map": "/minimal/static/css/2.8a830cc8.chunk.css.map",
-    "static/css/main.d63d1476.chunk.css.map": "/minimal/static/css/main.d63d1476.chunk.css.map",
-    "static/js/2.4f7b6483.chunk.js.LICENSE.txt": "/minimal/static/js/2.4f7b6483.chunk.js.LICENSE.txt",
-    "static/media/app.css": "/minimal/static/media/ConnectionIi-2wj8.b9d19ebc.otf",
+    "static/css/2.c53e8639.chunk.css.map": "/minimal/static/css/2.c53e8639.chunk.css.map",
+    "static/css/main.959872b6.chunk.css.map": "/minimal/static/css/main.959872b6.chunk.css.map",
+    "static/js/2.a38fd688.chunk.js.LICENSE.txt": "/minimal/static/js/2.a38fd688.chunk.js.LICENSE.txt",
     "static/media/Mathimals.b291b245.png": "/minimal/static/media/Mathimals.b291b245.png",
     "static/media/Murat Can Yüksel's Resume.39c8f641.pdf": "/minimal/static/media/Murat Can Yüksel's Resume.39c8f641.pdf",
     "static/media/NFT.6448a70b.png": "/minimal/static/media/NFT.6448a70b.png",
@@ -20,10 +19,10 @@
     "static/media/smart.0e0eaf88.png": "/minimal/static/media/smart.0e0eaf88.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7a73d53.js",
-    "static/css/2.8a830cc8.chunk.css",
-    "static/js/2.4f7b6483.chunk.js",
-    "static/css/main.d63d1476.chunk.css",
-    "static/js/main.e3c4a414.chunk.js"
+    "static/js/runtime-main.420ec462.js",
+    "static/css/2.c53e8639.chunk.css",
+    "static/js/2.a38fd688.chunk.js",
+    "static/css/main.959872b6.chunk.css",
+    "static/js/main.c40e3e70.chunk.js"
   ]
 }
