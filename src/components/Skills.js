@@ -18,7 +18,7 @@ const Skills = () => {
             <td>Ruby/ Ruby on Rails</td>
           </tr>{" "}
           <tr>
-            <td>-Solidity/hardhat</td>
+            <td>Solidity/hardhat</td>
           </tr>{" "}
           <tr>
             <td>Bootstrap/React-Bootstrap/Chakra UI</td>

@@ -1,21 +1,25 @@
 #workComponent {
   background-color: black;
 }
-.imageContainer {
-  height: 500px;
-  width: 300px;
+
+/* .works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10em;
+} */
+.rowFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.image {
+.workImgContainer {
+  height: 50em;
+  width: 50em%;
+}
+.workImg {
   height: 100%;
   width: 100%;
-}
-.works {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  margin-left: 10em;
-}
-.workImage {
   object-fit: contain;
 }
 .carousels {
@@ -24,5 +28,5 @@
   align-items: center;
 }
 .cardText {
-  color: red !important;
+  color: white !important;
 }
