@@ -14,19 +14,25 @@
   align-items: center;
 }
 .workImgContainer {
-  height: 50em;
-  width: 50em%;
+  height: 500px;
+  width: 500px;
 }
 .workImg {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: fill;
 }
-.carousels {
+/* .carousels {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .cardText {
   color: white !important;
+  background-color: black;
+}
+.cards {
+  color: white !important;
+  background-color: black;
+  margin: 2em;
 }
