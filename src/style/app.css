@@ -1,14 +1,15 @@
-@font-face {
+/* @font-face {
   font-family: "Connection";
   src: url("../fonts/ConnectionIi-2wj8.otf") format("opentype");
-}
+} */
 
 body {
   /* bence bunu 100 vh almam gerekecek */
   height: 100%;
   width: 100vw;
   margin: 0;
-  font-family: "Connection", "Times New Roman", Times, serif;
+  font-family: "Courier New", monospace, "Georgia", "Times New Roman", Times,
+    serif;
 }
 .App {
   background-color: black;
