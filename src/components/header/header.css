@@ -1,0 +1,109 @@
+/* I comment these out as I imported them in index.css */
+
+/* @font-face {
+  font-family: openSans;
+  src: url(../../assets//fonts/openSans.ttf);
+}
+@font-face {
+  font-family: inconsalata;
+  src: url(../../assets//fonts/Inconsolata.ttf);
+} */
+
+.headerComponent {
+  height: 90vh;
+  width: 100%;
+  background: var(--yellow-bg);
+  color: black;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+.imageContainer {
+  width: 300px;
+  height: 300px;
+  margin-left: 5rem;
+}
+.profileImage {
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+}
+.headerTitleGroup {
+  width: 100vw;
+}
+.headerTextGroup {
+  /* margin-right: 3rem; */
+}
+.headerBigTitle {
+  font-size: 10rem;
+  font-family: openSans;
+  height: auto;
+  width: auto;
+}
+.headerTitle {
+  font-size: 2.5rem;
+}
+.headerBtn {
+  margin-right: 2rem;
+}
+.headerIcon {
+  font-size: 2rem;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 992px) {
+  .headerComponent {
+    padding-top: 10rem;
+  }
+  .headerBigTitle {
+    font-size: 5rem;
+  }
+  .headerTitle {
+    font-size: auto;
+    font-size: 1.5rem;
+  }
+  .imageContainer {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .headerComponent {
+    height: 100%;
+  }
+  .imageContainer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerTextGroup {
+    width: 100vw;
+  }
+  .headerTextGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .headerComponent {
+    /* padding-top: 5rem; */
+  }
+  /* .headerTextGroup {
+    align-items: flex-start;
+  } */
+  .headerBigTitle {
+    font-size: 3rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerTitle {
+    font-size: auto;
+    font-size: 1.2rem;
+  }
+}

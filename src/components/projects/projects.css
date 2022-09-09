@@ -1,0 +1,61 @@
+.project {
+  margin-bottom: 5rem;
+}
+
+.projectImg {
+  width: 30rem;
+  height: 30rem;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+  border-radius: 10px;
+}
+.bigTitle {
+  font-size: 3rem;
+  font-family: openSans;
+  height: auto;
+  width: auto;
+  /* text-decoration: underline; */
+  margin-bottom: 2rem;
+}
+.title {
+  font-size: 2rem;
+  font-family: openSans;
+  height: auto;
+  width: auto;
+  /* text-decoration: underline; */
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 576px) {
+  .bigTitle {
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .right {
+    width: 40%;
+  }
+}
+
+.buttons {
+  width: 100%;
+}
+.projectLink {
+  margin-right: 1rem;
+}
+.desc {
+}
+.techUsed {
+  /* width: 70%; */
+}
+
+.techUsedItem {
+  margin: 0 1rem;
+}
+.techUsedTitle {
+}

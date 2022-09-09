@@ -1,0 +1,109 @@
+#aboutComponent {
+  background: #f6f6f4;
+  height: 100%;
+}
+.aboutWrapper {
+}
+.above {
+  height: 100%;
+}
+.below {
+  /* old background color */
+  /* background: #fbeeca; */
+  /* background: #ffe01b; */
+  background: #fbe6ca;
+}
+.aboutTitle {
+}
+.techStack {
+  width: 100%;
+  height: auto;
+}
+.education {
+  width: 100%;
+}
+.educationItem {
+  width: 100%;
+  margin: 1rem;
+}
+.work {
+}
+.stacks {
+  overflow: auto !important;
+}
+.stack {
+  margin: 1rem;
+  font-weight: 500;
+  color: #172e38;
+  font-size: 1.2rem;
+}
+.logoContainer {
+  margin: 1rem;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .logoContainer {
+    width: 50px;
+    max-width: 100px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .logoContainer {
+    width: auto;
+    max-width: 100px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .logoContainer {
+    width: auto;
+    max-width: 100px;
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .logoContainer {
+    width: auto;
+    max-width: auto;
+    height: 60px;
+    margin: 1.5rem;
+  }
+}
+.educationTitle {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.educationUniversity {
+  font-size: 1.1rem;
+}
+.educationYear {
+}
+.workIndicator {
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.workTitle {
+  font-size: 1.7rem;
+}
+.workCompany {
+  font-size: 1.2rem;
+}
+.workLocation {
+}
+.workYear {
+  margin-bottom: 1.5rem;
+}
+.aboutBigtitle {
+  font-size: 3rem;
+  font-family: openSans;
+  height: auto;
+  width: auto;
+  /* text-decoration: underline; */
+  margin-top: 1rem;
+}
