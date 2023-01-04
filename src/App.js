@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
 import NavbarComponent from "./components/navbar/NavbarComponent";
@@ -9,6 +9,10 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
+  //redirect to new domain
+  useEffect(() => {
+    window.location = "https://www.muratcanyuksel.tech/";
+  }, []);
   return (
     <div className="App">
       <div className="wrapper">
